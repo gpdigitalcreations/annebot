@@ -13,7 +13,7 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f2f2f2;
+      background-color: #f2f2f2; 
     }
 
     header {
@@ -37,21 +37,43 @@
 
     h2 {
       font-size: 1.25rem;
-      margin-bottom: 1rem;
+      margin-bottom: 1rem;  
     }
 
     p {
       margin-bottom: 1.5rem;
     }
 
-    .chat-button {
+    .chat-button,
+    .coffee-button {
       display: inline-block;
+      vertical-align: middle;
+    }
+
+    .chat-button {
+      margin-right: 1rem;
+    }
+    
+    .coffee-button {
+      margin-left: 1rem; 
+    }
+
+    .chat-button {
       padding: 1rem 1rem;
       background-color: var(--primary-color);
       color: #fff;
       text-decoration: none;
       border-radius: 0.25rem;
       font-size: 1.125rem;
+    }
+    
+    .coffee-button {
+      padding: 0.5rem;
+      border-radius: 0.25rem;
+    }
+
+    .coffee-button img {
+      height: 2rem;
     }
 
     iframe {
@@ -63,7 +85,7 @@
 
     footer {
       background-color: #f2f2f2;
-      text-align: center;
+      text-align: center;  
       padding: 0.625rem;
       font-size: 0.75rem;
     }
@@ -88,8 +110,12 @@
     <p>The creator of this page is not responsible for any of the generated responses as they are powered by a Large Language Model.</p>
 
     <a href="https://udify.app/chat/OS7OzNRLta3FxBxM" class="chat-button">Go To Chat</a>
+    
+    <a href="https://www.buymeacoffee.com/annechatbot" class="coffee-button">
+      <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee">
+    </a>
 
-  </main>
+  </main>  
 
   <footer>
     <p>Created &amp; Maintained By A Kearns</p>
